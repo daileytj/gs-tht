@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<title>Svelte + Tailwind app</title>
+
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="build/bundle.css">
+	<style>
+		.dark .dark\:bg-custom-black {
+			background-color: rgb(27 27 27);
+		}
+
+		.text-custom-black {
+			--tw-text-opacity: 1;
+			color: rgb(27 27 27);
+		}
+	</style>
+	<script defer src="build/bundle.js"></script>
+</head>
+
+<body class="text-custom-black bg-white dark:text-white dark:bg-custom-black">
+</body>
+
+</html>
